@@ -1,0 +1,17 @@
+*.pt
+*.pth
+*.onnx
+*.mp4
+*.avi
+*.mov
+*.mkv
+output/
+dash_output/
+uploads/
+__pycache__/
+*.pyc
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/

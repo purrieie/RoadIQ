@@ -1,8 +1,0 @@
-tracker_id,vehicle_class,violation_type,prohibited_zone_id,points_inside_zone,stop_start_frame,stop_end_frame,duration_sec,lower_timestamp,upper_timestamp,median_x,median_y
-34,truck,Illegal Parking,2,3/5,485,905,16.84,19.4,36.2,1536.65,355.72
-42,car,Illegal Parking,2,4/5,689,887,7.96,27.56,35.48,1091.01,89.75
-43,car,Illegal Parking,2,5/5,713,789,3.08,28.52,31.56,1180.6,94.84
-54,car,Illegal Parking,2,3/5,786,949,6.56,31.44,37.96,1664.56,484.58
-58,car,Illegal Parking,2,5/5,948,1153,8.24,37.92,46.12,1111.83,124.78
-60,car,Illegal Parking,2,5/5,1067,1147,3.24,42.68,45.88,1183.07,93.45
-71,car,Illegal Parking,2,5/5,1054,1154,4.04,42.16,46.16,1007.41,100.81
