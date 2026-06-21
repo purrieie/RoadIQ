@@ -178,3 +178,27 @@ http://localhost:9123
  
 ---
 
+## How to use
+ 
+1. Go to the **Process video** tab.
+2. Upload a traffic video (short, 720p clips work best on CPU).
+3. Draw zones (optional):
+   - **Parking zone** (red) — outline a no-parking area.
+   - **Road lane + arrow** (orange) — outline the lane, then click two points to set the legal flow direction.
+4. Click **Run pipeline**.
+5. When done, see results on **Overview**, **Violations**, **Evidence**, and **Analytics** tabs. Violations can be downloaded as CSV.
+---
+ 
+## Notes
+ 
+- **CPU vs GPU**: detection is compute-heavy. On a laptop without a GPU, use short, low-resolution clips. To trim a clip:
+```bash
+  ffmpeg -i input.mp4 -t 15 -vf scale=1280:-2 short.mp4
+```
+- **Videos not playing in browser?** OpenCV writes `mp4v` which browsers can't play. In `config.py` change `VIDEO_CODEC = "mp4v"` to `"avc1"`. If that fails, convert manually:
+```bash
+  ffmpeg -i output.mp4 -vcodec libx264 -pix_fmt yuv420p web.mp4
+```
+- Outputs are saved in `dash_output/` (separate from the CLI `main.py` outputs in `output/`).
+---
+ 
