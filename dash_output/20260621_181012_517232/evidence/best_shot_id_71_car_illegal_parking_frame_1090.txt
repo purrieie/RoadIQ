@@ -1,0 +1,17 @@
+==================================================
+          AUTOMATED TRAFFIC CITATION TICKET       
+==================================================
+VIOLATION TYPE  : ILLEGAL PARKING
+TRACKER ID      : 71
+VEHICLE CLASS   : CAR
+--------------------------------------------------
+EVIDENCE FRAME  : 1090
+EVIDENCE TIME   : 43.6 seconds from video start
+RESOLUTION AREA : 3053 pixels
+--------------------------------------------------
+PARKING LOG METRICS:
+  • Entry Timestamp: 42.16s (Frame 1054)
+  • Exit Timestamp : 46.16s (Frame 1154)
+  • Total Duration : 4.04 seconds
+  • Target Zone ID : Prohibited Zone #2
+==================================================

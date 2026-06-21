@@ -1,0 +1,17 @@
+==================================================
+          AUTOMATED TRAFFIC CITATION TICKET       
+==================================================
+VIOLATION TYPE  : WRONG-SIDE DRIVING
+TRACKER ID      : 103
+VEHICLE CLASS   : CAR
+--------------------------------------------------
+EVIDENCE FRAME  : 1088
+EVIDENCE TIME   : 43.52 seconds from video start
+RESOLUTION AREA : 81304 pixels
+--------------------------------------------------
+VECTOR MOTION METRICS:
+  • Vehicle Direction: 310.0°
+  • Allowed Direction: 94.3°
+  • Deviation Angle  : 144.2° against legal lane flow
+  • Target Zone ID   : Road Lane #1
+==================================================

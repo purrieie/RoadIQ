@@ -1,0 +1,17 @@
+==================================================
+          AUTOMATED TRAFFIC CITATION TICKET       
+==================================================
+VIOLATION TYPE  : WRONG-SIDE DRIVING
+TRACKER ID      : 40
+VEHICLE CLASS   : MOTORCYCLE
+--------------------------------------------------
+EVIDENCE FRAME  : 471
+EVIDENCE TIME   : 18.84 seconds from video start
+RESOLUTION AREA : 12690 pixels
+--------------------------------------------------
+VECTOR MOTION METRICS:
+  • Vehicle Direction: 166.5°
+  • Allowed Direction: 317.0°
+  • Deviation Angle  : 150.5° against legal lane flow
+  • Target Zone ID   : Road Lane #1
+==================================================

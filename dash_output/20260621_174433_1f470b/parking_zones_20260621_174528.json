@@ -1,0 +1,1 @@
+[{"zone_id": 1, "zone_type": "illegal_parking", "polygon": [[1489, 247], [1593, 233], [2014, 635], [1841, 660], [1485, 233]], "legal_vector": null}, {"zone_id": 2, "zone_type": "road_lane", "polygon": [[975, 42], [1277, 53], [2233, 1385], [195, 1396], [971, 35]], "legal_vector": {"start": [1137, 233], "end": [1108, 1130]}}]
